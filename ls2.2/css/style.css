@@ -1,0 +1,117 @@
+p,
+ul
+{
+    margin-bottom: 16px;
+}
+
+ul,
+ol
+{
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+body
+{
+    padding: 20px 40px;
+}
+
+.my_photo
+{
+    position: absolute;
+    width: 270px;
+    height: 300px;
+    padding-left: 300px;
+}
+
+.quote_text
+{
+    margin: 0;
+    color: darkgrey;
+    font-size: 22px;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+.quotes
+{
+    width: 90px;
+    height: 60px;
+}
+
+.cite
+{
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 650px;
+    padding-right: 550px;
+}
+
+.bold_cite_padding
+{
+    padding-left: 30px;
+}
+
+.padding
+{
+    padding-top: 340px;
+    padding-left: 300px;
+    padding-right: 700px;
+    font-size: 22px;
+    color: #3CB371;
+    margin-bottom: 0;
+}
+
+.inform_padding
+{
+    padding-left: 320px;
+    padding-right: 700px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.title_inform_padding
+{
+    margin: 0;
+    padding-left: 300px;
+    padding-right: 700px;
+    font-size: 22px;
+    color: #3CB371;
+}
+
+.div_padding
+{
+    position: absolute;
+    padding-top: 320px;
+    padding-left: 600px;
+    padding-right: 550px;
+}
+
+.h1_size
+{
+    font-size: 40px;
+}
+
+.head4_size
+{
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.paragraph_padding
+{
+    padding-top: 40px;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+
+.hobby_paragraph_line_heigh
+{
+    line-height: 25px;
+}
+
+.link
+{
+    color: #3CB371;
+}
