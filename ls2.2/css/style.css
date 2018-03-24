@@ -1,117 +1,103 @@
-p,
-ul
-{
-    margin-bottom: 16px;
-}
-
-ul,
-ol
-{
-    font-size: 18px;
-    padding-left: 20px;
-}
-
 body
 {
-    padding: 20px 40px;
+    padding-top: 70px;
+}
+
+.containers
+{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.left_block
+{
+    float: left;
+    width: 330px;
+    margin-right: 60px;
+}
+
+.left_block_information_title
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #3CB371;
+}
+
+.left_block_information_content
+{
+    padding-top: 13px;
+    padding-bottom: 40px;
+    padding-left: 22px;
+    font-family: 'Georgia';
+    font-size: 19px;
+    color: #696969;
+    line-height: 1.895;
+}
+
+.right_block
+{
+    float: left;
+    width: 560px;
+}
+
+.name
+{
+    margin-top: 132px;
+    font-family: 'Open Sans';
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hobbys
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    margin-top: 42px;
+}
+
+.text
+{
+    font-family: 'Georgia';
+    font-size: 19px;
+    line-height: 32px;
+    margin-top: 40px;
 }
 
 .my_photo
 {
-    position: absolute;
-    width: 270px;
-    height: 300px;
-    padding-left: 300px;
+    width: 330px;
+    height: 370px;
 }
 
-.quote_text
+.quote
 {
-    margin: 0;
-    color: darkgrey;
-    font-size: 22px;
-    font-style: italic;
-    padding-left: 30px;
-}
-
-.quotes
-{
-    width: 90px;
-    height: 60px;
+    padding-top: 50px;
 }
 
 .cite
 {
-    position: absolute;
-    padding-top: 60px;
-    padding-left: 650px;
-    padding-right: 550px;
-}
-
-.bold_cite_padding
-{
-    padding-left: 30px;
-}
-
-.padding
-{
-    padding-top: 340px;
-    padding-left: 300px;
-    padding-right: 700px;
-    font-size: 22px;
-    color: #3CB371;
     margin-bottom: 0;
+    color: darkgrey;
+    font-size: 28px;
+    font-family: 'Georgia';
+    font-style: italic;
+    line-height: 1.5;
 }
 
-.inform_padding
-{
-    padding-left: 320px;
-    padding-right: 700px;
-    line-height: 30px;
-    margin-top: 10px;
-}
-
-.title_inform_padding
+.cite_autor
 {
     margin: 0;
-    padding-left: 300px;
-    padding-right: 700px;
-    font-size: 22px;
-    color: #3CB371;
-}
-
-.div_padding
-{
-    position: absolute;
-    padding-top: 320px;
-    padding-left: 600px;
-    padding-right: 550px;
-}
-
-.h1_size
-{
-    font-size: 40px;
-}
-
-.head4_size
-{
-    font-size: 30px;
-    font-weight: lighter;
-    margin: 0;
-}
-
-.paragraph_padding
-{
-    padding-top: 40px;
-    line-height: 23px;
-    margin-bottom: 40px;
-}
-
-.hobby_paragraph_line_heigh
-{
-    line-height: 25px;
+    padding-left: 42px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 42px;
 }
 
 .link
 {
     color: #3CB371;
+    font-family: 'Georgia';
 }
