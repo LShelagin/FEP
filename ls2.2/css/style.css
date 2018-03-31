@@ -1,6 +1,8 @@
 body
 {
     padding-top: 70px;
+    height: 901px;
+    width: 1910px;
 }
 
 .containers
@@ -18,17 +20,20 @@ body
 
 .left_block_information_title
 {
-    font-family: 'Open Sans', sans-serif;
+    margin-top: 18px;
+    margin-bottom: 0;
     font-size: 24px;
-    line-height: 1.3;
-    color: #3CB371;
+    line-height: 32px;
+    color: rgb(21,169,140);
+    font-family: "Open Sans";
+    font-weight: bold;
 }
 
 .left_block_information_content
 {
-    padding-top: 13px;
-    padding-bottom: 40px;
-    padding-left: 22px;
+    margin-top: 12px;
+    padding-bottom: 26px;
+    padding-left: 20px;
     font-family: 'Georgia';
     font-size: 19px;
     color: #696969;
@@ -43,10 +48,23 @@ body
 
 .name
 {
-    margin-top: 132px;
-    font-family: 'Open Sans';
+    margin-top: 18px;
+    margin-bottom: 44px;
     font-size: 48px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
     font-weight: bold;
+}
+
+.name:after
+{
+    margin-top: 29px;
+    content: " ";
+    display: block;
+    background: url(images/greenblock.png);
+    width: 60px;
+    height: 6px;
 }
 
 .hobbys
@@ -54,42 +72,55 @@ body
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
     font-weight: normal;
-    margin-top: 42px;
+    margin-top: 32px;
+    margin-bottom: 0px;
 }
 
 .text
 {
-    font-family: 'Georgia';
+    margin-top: 14px;
+    margin-bottom: 0;
+    width: 561px;
+    height: 198px;
     font-size: 19px;
-    line-height: 32px;
-    margin-top: 40px;
+    line-height: 33px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
 }
 
 .my_photo
 {
     width: 330px;
-    height: 370px;
+    height: 350px;
+    margin-bottom: 22px;
 }
 
 .quote
 {
-    padding-top: 50px;
+    margin-top: 46px;
+    margin-left: 0;
+    height: 330px;
+    background: url(images/quotes.jpg);
+    background-repeat: no-repeat;
 }
 
 .cite
 {
+    width: 500px;
+    margin-left: 59px;
+    padding-top: 72px;
     margin-bottom: 0;
-    color: darkgrey;
     font-size: 28px;
-    font-family: 'Georgia';
-    font-style: italic;
-    line-height: 1.5;
+    line-height: 42px;
+    color: rgb(132,132,132);
+    font-family: "Georgia";
+    font-style: italic;;
 }
 
 .cite_autor
 {
     margin: 0;
-    padding-left: 42px;
+    padding-left: 64px;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -98,6 +129,15 @@ body
 
 .link
 {
-    color: #3CB371;
-    font-family: 'Georgia';
+    margin-top: 0;
+    padding-bottom: 114px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(9,141,114);
+    font-family: "Georgia";
+}
+
+.my_hobbys
+{
+    margin-bottom: 5px;
 }
