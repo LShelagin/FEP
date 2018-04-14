@@ -269,14 +269,17 @@ body
     line-height: 42px;
     font-weight: 400;
     padding-top: 3px;
-    margin-bottom: 34px;
+    margin-bottom: 32px;
 }
 
 .films
 {
-    width: 1240px;
-    margin-top: 90px;
-    margin-left: 348px;
+    background: #f9f9f9;
+    height: 1042px;
+    width: 1900px;
+    padding-top: 3px;
+    margin-top: 52px;
+    padding-left: 350px;
 }
 
 .films img
@@ -288,7 +291,7 @@ body
 
 .films h4
 {
-    margin-top: 18px;
+    margin-top: 20px;
     margin-bottom: 19px;
     margin-left: 0;
     font-size: 22px;
@@ -311,9 +314,8 @@ body
 .film_link
 {
     text-align: center;
-    margin-top: 44px;
-    margin-right: 20px;
-    margin-bottom: 75px;
+    margin-right: 722px;
+    margin-top: 43px;
 }
 
 .film_link a
@@ -323,13 +325,13 @@ body
     font-family: 'Georgia';
     color: white;
     line-height: 2;
-    border-radius: 5px;
 }
 
 .button
 {
     padding: 14px 54px;
     background-color: rgb(21, 169, 140);
+    border-radius: 5px;
 }
 
 .clear
@@ -337,12 +339,199 @@ body
     clear: both;
 }
 
+.feedback
+{
+    margin: 0 auto;
+    width: 540px;
+    margin-top: 47px;
+    margin-left: 680px;
+}
+
+.feedback_title
+{
+    margin-left: 141px;
+}
+
+.feedback_title_text
+{
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.left_line
+{
+    border-bottom: 1px solid #3f3f3f;
+    width: 198px;
+    margin-top: -21px;
+    margin-left: -225px;
+}
+
+.right_line
+{
+    border-bottom: 1px solid #3f3f3f;
+    width: 198px;
+    margin-left: 271px;
+}
+
+.visiter_information
+{
+    margin-top: 88px;
+}
+
+label
+{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+.feedback_block
+{
+    margin-top: -1px;
+    margin-bottom: 25px;
+    
+}
+
+.required_field
+{
+    margin-left: 5px;
+    color: red;
+}
+
+.visiter
+{
+    margin-bottom: 2px;
+}
+
+.feedback_block_item
+{
+    font-size: 18px;
+    line-height: 20px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans", sans-serif;
+    outline: inherit;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+.feedback_block_message
+{
+    margin-top: 20px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea
+{
+    height: 45px;
+    width: 518px;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans", sans-serif;
+    border: 2px solid #c9c9c9;
+}
+
+input[type=text]:hover,
+input[type=email]:hover,
+select:hover,
+textarea:hover
+{
+    border: 2px solid #a6a6a6;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+select:focus,
+textarea:focus
+{
+    border: 2px solid #15a98c;
+}
+
+select
+{
+    padding-left: 17px;
+    margin-top: 2px;
+    -webkit-appearance: none;
+    background: url(css_image/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 498px 19px;
+    height: 50px;
+    width: 540px;
+}
+
+select:hover,
+input.feedback_block_item.radiobutton:hover,
+.text_gender,
+.feedback_button
+{
+    cursor: pointer;
+}
+
+.feedback_special_padding
+{
+    margin-top: 42px;
+}
+
+.feedback_special_padding p
+{
+    margin-bottom: 4px;
+}
+
+.gender
+{
+    margin-left: -4px;
+    padding-bottom: 10px;
+}
+
+.text_gender
+{
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text_gender women
+{
+    margin-left: 0;
+    letter-spacing: -1px;
+}
+
+textarea
+{
+    margin-top: -17px;
+    width: 520px;
+    height: 142px;
+}
+
+.feedback_button
+{
+    width: 220px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: #15a98b;
+    font-size: 19px;
+    font-family: 'Georgia';
+    color: white;
+    line-height: 2;
+    padding: 7px 61px;
+    margin-top: 39px;
+    margin-bottom: 47px;
+}
+
 .volgatech
 {
     background: #f5f5f5;
     text-align: center;
-    padding: 19px 0;
-    margin-left: -20px;
+    padding: 21px 0;
 }
 
 .bottom_text
@@ -351,4 +540,5 @@ body
     line-height: 32px;
     color: rgb(85,85,85);
     font-family: "Georgia";
+    margin-left: -20px;
 }
